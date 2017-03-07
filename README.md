@@ -10,6 +10,6 @@ In Unit Testing you check if a certain chunk of code does its job. The chunks of
 
 The comparison ‘to what we expect it to be’ part is handled by XCTAssert functions. The simplest XCTAssert function is the XCTAssert(expression: BooleanType). This one takes in a boolean expression (This can be something like 5 > 3, 8.90 == 8.90 or true) and makes the test pass if the expression is evaluated to be true or fail if evaluated to be false.
 
-In this sample, you learned about Unit Testing in Xcode and how it can help you to find bugs in your code. Besides bug prevention, Unit Testing can also be used for Performance Testing and Asynchronous Testing. Another thing that might interest you is UI Testing, where you test how your app performs in real life situations by recording actions on your app.
+In this sample, you can learn about Unit Testing in Xcode and how it can help you to find bugs in your code. Besides bug prevention, Unit Testing can also be used for Performance Testing and Asynchronous Testing. Another thing that might interest you is UI Testing, where you test how your app performs in real life situations by recording actions on your app.
 
 Thanks,
