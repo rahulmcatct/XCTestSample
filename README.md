@@ -12,4 +12,6 @@ The comparison ‘to what we expect it to be’ part is handled by XCTAssert fun
 
 In this sample, you can learn about Unit Testing in Xcode and how it can help you to find bugs in your code. Besides bug prevention, Unit Testing can also be used for Performance Testing and Asynchronous Testing. Another thing that might interest you is UI Testing, where you test how your app performs in real life situations by recording actions on your app.
 
+Use following link to know more about UI Testing : https://developer.apple.com/videos/play/wwdc2015/406/
+
 Thanks,
