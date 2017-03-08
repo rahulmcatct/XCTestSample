@@ -28,7 +28,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Byq-fW-9Kf">
+                            <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Byq-fW-9Kf">
                                 <rect key="frame" x="63" y="285" width="250" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Z42-a7-yQI"/>
@@ -55,7 +55,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW9-Qh-LPw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW9-Qh-LPw">
                                 <rect key="frame" x="63" y="219" width="250" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="kip-pJ-uPB"/>
@@ -64,7 +64,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tG4-4Z-ar1">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="80" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tG4-4Z-ar1">
                                 <rect key="frame" x="63" y="182" width="250" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gtx-O7-ztX"/>
@@ -98,9 +98,9 @@
                     </view>
                     <connections>
                         <outlet property="numberLabel" destination="JW9-Qh-LPw" id="mEP-7A-GI2"/>
-                        <outlet property="numberSlider" destination="tG4-4Z-ar1" id="xEN-Zl-afv"/>
+                        <outlet property="numberSlider" destination="tG4-4Z-ar1" id="CnP-Y2-gta"/>
                         <outlet property="percentageLabel" destination="5f6-cX-UK5" id="nRN-u3-Fms"/>
-                        <outlet property="percentageSlider" destination="Byq-fW-9Kf" id="8b8-BK-n00"/>
+                        <outlet property="percentageSlider" destination="Byq-fW-9Kf" id="tcx-2Z-j7F"/>
                         <outlet property="resultLabel" destination="HYC-L7-1jb" id="J24-km-K8R"/>
                     </connections>
                 </viewController>

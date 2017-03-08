@@ -38,6 +38,16 @@
                ReferencedContainer = "container:PercentCalculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44B469AF1E6ED78900FDD657"
+               BuildableName = "PercentCalculatorUITests.xctest"
+               BlueprintName = "PercentCalculatorUITests"
+               ReferencedContainer = "container:PercentCalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
